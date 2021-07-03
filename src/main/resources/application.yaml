@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/PagesCategory"
+    username: ${POSTGRESSQL_USERNAME}
+    password: ${POSTGRESSQL_PASSWORD}
+  jpa:
+    hibernate.ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+api.key: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmE0OTU1YmEwZjExY2Q5ZTI4MjBiZmQ1YzUzYzcyM2QyOTk3YTgyZmFkMmJhMDJlNTBmOWRkMmQxOTg2MzQyMjc3N2Q4NzM5NjI1OWJiODgiLCJpYXQiOjE2MjUyNjg5OTYsIm5iZiI6MTYyNTI2ODk5NiwiZXhwIjoxNjU2ODA0OTk2LCJzdWIiOiIyODM0Iiwic2NvcGVzIjpbXX0.ye7T33TXurUoB2y3C9ti9UVM7EYzUQvIIAXn8nNVLNpmjOmJvgA-Afe3wdXiNTy0aNajW13200Ol4kU4SckjqA
